@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+body {
+  background-image: url('BG2.png');
+}
+</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Control panel for buttons and sliders -->
+      <div id="control-panel">
+        <div id="button-holder">
+<!--           <button id="play-keyboard">Play Keyboard</button>
+          <button id="play-vocals">Play Vocals</button>
+          <button id="play-guitar">Play Guitar</button>
+          <button id="stop-sound">Stop Sound</button>
+          <button id="enable-mic">Enable Mic</button> -->
+        </div>
+        <div class="slider-holder">
+          <label for="volume-slider">Volume:</label>
+<!--           <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.5"> -->
+        </div>
+        <div class="slider-holder">
+          <label for="reverb-slider">Reverb:</label>
+<!--           <input type="range" id="reverb-slider" min="0" max="10" step="0.1" value="3"> -->
+        </div>
+        <div class="slider-holder">
+          <label for="delay-slider">Delay:</label>
+<!--           <input type="range" id="delay-slider" min="0" max="1" step="0.01" value="0.3"> -->
+        </div>
+      </div>
+      <div id="sketch-holder"></div>
+      <script src="sketch.js"></script>
+    </div>
+     <div class="text-content">
+    <h2>Efe Akusu</h2>
+    <h2>Untamed Progression, <small>2024</small></h2>
+    <p><i>Creative Code, Visualization, Interactive Design</i></p>
+    <p>Aside designing, one of my hubbies is playing the musical instrument. This is something I enjoy doing for fun. This work was intended to combine different musical instrument composed by me and adding effects to the sound and visualizing it using FFT library in p5. user can also input sound using the mic for live visualization.</p>
+    </div>
+  </body>
+</html>

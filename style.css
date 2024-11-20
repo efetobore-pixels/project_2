@@ -1,0 +1,106 @@
+html, body {
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background-color: #7ab200;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left:40px;
+  margin-top:40px;
+}
+canvas {
+  display: block;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 400px; 
+  grid-template-rows: auto; 
+  gap: 10px; 
+}
+
+#control-panel {
+  color: black;
+  grid-column: 1; 
+  grid-row: 1; 
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}
+
+.button-holder button {
+  display: block;
+  width: 100%; 
+  margin-bottom: 5px; 
+}
+
+.slider-holder {
+  display: flex;
+  flex-direction: column; 
+  gap: 5px; 
+}
+
+#sketch-holder {
+  grid-column: 2; 
+  grid-row: 1; 
+  border:2px solid white;
+  border-radius: 30px;
+}
+button {
+  margin-right: 2px;
+  background-color: white;
+  border: 1;
+  color: #0E87C3;
+  padding: 2px 4px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+h1 {
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-family: "Freeman", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.text-content {
+  flex: 2;
+  margin-left: 40px;
+  margin-right: 40px;
+  max-width: 710px;
+  align-content: left;
+}
+
+.text-image {
+  width: 30%;
+  height: auto;
+}
+
+h2 {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+p {
+  font-family: "Courier New", monospace;
+  font-weight: 400;
+  font-size: 20px;
+  color: #F1F1F1;
+}
+small {
+  font-family: "Courier New", monospace;
+  font-weight: 400;
+  font-size: 20px;
+  color: #F1F1F1;
+}
